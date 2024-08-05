@@ -2,8 +2,62 @@
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TACL":
+  # url: https://direct.mit.edu/tacl
+  # color: "#009f36"
+  color: "#0076df"
 
-"Vision":
-  color: "#009f36"
+"EMNLP":
+  # color: "#0076df"
+  color: "#0076df"
+
+"ACL":
+  # color: "red"
+  color: "#0076df"
+
+"NAACL":
+  color: "#0076df"
+
+"COLING":
+  color: "#0076df"
+
+"AACL / IJCNLP":
+  color: "#0076df"
+
+"ICML":
+  color: "#0076df"
+
+"NeurIPS":
+  color: "#0076df"
+
+"ICLR":
+  color: "#0076df"
+
+"WWW":
+  color: "#0076df"
+
+"AAAI":
+  color: "#0076df"
+
+"ACM MM":
+  color: "#0076df"
+
+"TMM":
+  color: "#0076df"
+
+"ICMR":
+  color: "#0076df"
+
+"RecSys":
+  color: "#0076df"
+
+"TMLR":
+  color: "#0076df"
+
+"arXiv":
+  # color: "#818589"
+  color: "#0076df"
+
+"PhD thesis":
+  # color: "purple"
+  color: "#0076df"

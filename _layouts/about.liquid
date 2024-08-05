@@ -2,79 +2,84 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+  <div id="profile">
+    <div class="row">
+      <!-- The profile image -->
+      <div class="column" style="width: 40%">
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+          <div style="text-align: center;">
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class width="50%" alt=page.profile.image
+            cache_bust=true %}
+          </div>
       </div>
-    {% endif %}
+      <!-- The profile information -->
+      <div class="column-long" style="width: 60%">
+        <div class="blank"></div>
+        <h2 class="post-title"><span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }}
+        {{ site.last_name }}</span></h2>
+        <h5><span style='font-size: 90%'>{{ site.position }}</span></h5>
+        <h5><span style='font-size: 90%'>{{ site.department }}</span></h5>
+        <h5><span style='font-size: 90%'>{{ site.institution }}</span></h5>
+        <div class="blank"></div>
 
+        <!-- Social -->
+        <div class="social">
+          <div class="contact-icons social-icons">
+            <div style="width:1em;text-align:center"><a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope-open-text fa-xs"></i></a></div>
+            <div style="width:1em;text-align:center"><a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a></div>
+            <div style="width:1em;text-align:center"><a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a></div>
+            <div style="width:1em;text-align:center"><a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github fa-sm"></i></a></div>
+            {% comment %} <div style="width:1em;text-align:center"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin fa-sm"></i></a></div> {% endcomment %}
+            <div style="width:1em;text-align:center"><a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter fa-sm"></i></a></div>
+            <div style="width:1em;text-align:center"><a href="assets/pdf/XiaobaoWu_CV.pdf" target="_blank" title="CV"><i class="ai ai-cv"></i></a></div>
+          </div> <!-- end of contact-icons -->
+        </div> <!-- end of social -->
+      </div> <!-- end of column-long -->
+    </div> <!-- end of row -->
+  </div> <!-- end of profile -->
+
+  <article>
     <div class="clearfix">{{ content }}</div>
+
+    <br/>
+    <br/>
+    <hr class="segmentation-line">
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
-      {% include news.liquid limit=true %}
+      {% include news.liquid limit=false %}
     {% endif %}
 
-    <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
 
     <!-- Selected papers -->
+    <br/>
+    <hr class="segmentation-line">
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
+
+    <br/>
+    <br/>
+    <br/>
+    <div style="width: 50%; margin: auto">
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=vHtRG4MR4Mcx9fVbu6mebZ2rkyGcw4FgEPqeqGXef4w&cl=ffffff&w=a"></script>
+    </div>
+
   </article>
 </div>

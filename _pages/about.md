@@ -1,25 +1,42 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  align: left
+  image: figure.jpg
+  image_circular: true # crops the image to make it circular
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+search_enabled: false
 ---
+Hi, I'm now a Ph.D. candidate at [CCDS][CCDS], [Nanyang Technological University][NTU], supervised by Prof. [Anh Tuan Luu][Tuan].
+I received my Master's degree from [Tsinghua University][Tsinghua] (2018 - 2021) and my Bachelor's degree from [Southeast University][SEU] (2014 - 2018).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research interests lie mostly in the area of **machine learning and natural language processing**.
+I'm interested in LLMs recently, specially the following topics:
+- <i class="fa-solid fa-flask"></i> **Reasoning**: How/why can LLMs consistently perform logical and faithful reasoning?
+- <i class="fa-solid fa-flask"></i> **Efficiency**: How can LLMs efficiently produce reliable information?
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+[CCDS]: https://www.ntu.edu.sg/computing
+[Tsinghua]: https://www.tsinghua.edu.cn/publish/newthu/index.html
+[UCSB]: https://nlp.cs.ucsb.edu/
+[William]: https://sites.cs.ucsb.edu/~william/
+[Tuan]: https://tuanluu.github.io/
+[NTU]: https://www.ntu.edu.sg/computing
+[SEU]: https://www.seu.edu.cn/english/
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+<!-- Announcement color: #0076df; I am hiring!-->
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title" style="color: #0076df; bold;">📢 Annoncement</h5>
+    <p class="card-text" style="font-size: 1em;">
+    I am looking for highly motivated Ph.D./master/undergraduate students to work with me on exciting research projects related to large language models. If you are interested in working with me, please feel free to reach out to me via email.
+    </p>
+    <!-- <a href="/research/" class="btn btn-primary">Learn more</a> -->
+  </div>
+</div>

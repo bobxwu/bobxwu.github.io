@@ -1,114 +1,345 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{tacl = {Transactions of the Association for Computational Linguistics (TACL)}}
+@string{emnlp = {Conference on Empirical Methods in Natural Language Processing (EMNLP)}}
+@string{acl = {Annual Meeting of the Association for Computational Linguistics (ACL)}}
+@string{emnlpfindings = {Findings of Conference on Empirical Methods in Natural Language Processing (EMNLP)}}
+@string{aclfindings = {Findings of Annual Meeting of the Association for Computational Linguistics (ACL)}}
+@string{icml = {International Conference on Machine Learning (ICML)}}
+@string{iclr = {International Conference on Learning Representations (ICLR)}}
+@string{tmlr = {Transactions on Machine Learning Research (TMLR)}}
+@string{ijcnlp-aacl = {International Joint Conference on Natural Language Processing and Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)}}
+@string{aacl = {Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (AACL)}}
+@string{ijcnlp = {International Joint Conference on Natural Language Processing (IJCNLP)}}
+@string{www = {International World Wide Web Conference (WWW)}}
+@string{aaai = {AAAI Conference on Artificial Intelligence (AAAI)}}
+@string{naacl = {Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)}}
+@string{coling = {International Conference on Computational Linguistics (COLING)}}
+@string{icmr = {International Conference on Multimedia Retrieval (ICMR)}}
+@string{acmmm = {ACM International Conference on Multimedia (ACM MM)}}
+@string{cvpr = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}}
+@string{iccv = {IEEE/CVF International Conference on Computer Vision (ICCV)}}
+@string{eccv = {European Conference on Computer Vision (ECCV)}}
+@string{tmm = {IEEE Transactions on Multimedia (TMM)}}
+@string{air = {Artificial Intelligence Review (AIR)}}
+@string{nlpcc = {International Conference on Natural Language Processing and Chinese Computing (NLPCC)}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+
+
+
+@misc{wu2024updating,
+  abbr          = {arXiv},
+  pdf           = {https://arxiv.org/abs/2402.18909},
+  code    = {https://github.com/bobxwu/AKEW},
+  bibtex_show       = {true},
+  abstract      = {Knowledge editing aims to inject knowledge updates into language models to keep them correct and up-to-date. However, its current evaluation strategies are notably impractical: they solely update with well-curated structured facts (triplets with subjects, relations, and objects), whereas real-world knowledge updates commonly emerge in unstructured texts like news articles. In this paper, we propose a new benchmark, Unstructured Knowledge Editing (UKE). It evaluates editing performance directly using unstructured texts as knowledge updates, termed unstructured facts. Hence UKE avoids the laborious construction of structured facts and enables efficient and responsive knowledge editing, becoming a more practical benchmark. We conduct extensive experiments on newly built datasets and demonstrate that UKE poses a significant challenge to state-of-the-art knowledge editing methods, resulting in their critical performance declines. We further show that this challenge persists even if we extract triplets as structured facts. Our analysis discloses key insights to motivate future research in UKE for more practical knowledge editing.},
+  title         = {Updating Language Models with Unstructured Facts: Towards Practical Knowledge Editing},
+  author        = {Xiaobao Wu and Liangming Pan and William Yang Wang and Anh Tuan Luu},
+  year          = {2024},
+  eprint        = {2402.18909},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2402.18909}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@misc{wu2024fastopic,
+  abbr    = {arXiv},
+  pdf     = {https://arxiv.org/pdf/2405.17978},
+  code    = {https://github.com/bobxwu/FASTopic},
+  bibtex_show = {true},
+  title   = {FASTopic: A Fast, Adaptive, Stable, and Transferable Topic Modeling Paradigm},
+  author  = {Wu, Xiaobao and Nguyen, Thong and Zhang, Delvin Ce and Wang, William Yang and Luu, Anh Tuan},
+  archiveprefix = {arXiv},
+  journal = {arXiv preprint arXiv:2405.17978},
+  eprint  = {2405.17978},
+  year    = {2024},
+  primaryclass  = {cs.CL},
+  url     = {https://arxiv.org/pdf/2405.17978},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+
+@article{wu2024survey,
+  abbr      = {AIR},
+  code      = {https://github.com/BobXWu/Paper-Neural-Topic-Models},
+  pdf       = {https://arxiv.org/pdf/2401.15351},
+  bibtex_show       = {true},
+  selected  = {true},
+  title     = {A Survey on Neural Topic Models: Methods, Applications, and Challenges},
+  author    = {Wu, Xiaobao and Nguyen, Thong and Luu, Anh Tuan},
+  journal   = {Artificial Intelligence Review},
+  url       = {https://doi.org/10.1007/s10462-023-10661-7},
+  year      = {2024},
+  publisher = {Springer}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
+@inproceedings{wu2024topmost,
+  abbr      = {ACL},
+  github    ={bobxwu/TopMost},
+  code    = {https://github.com/bobxwu/TopMost},
+  bibtex_show       = {true},
+  selected  = {true},
+  title   = {Towards the TopMost: A Topic Modeling System Toolkit},
+  author  = {Wu, Xiaobao and Pan, Fengjun and Luu, Anh Tuan},
+  year    = 2024,
+  booltitle = {The Annual Meeting of Association for Computational Linguistics: System Demonstration Track},
+  url     = {https://arxiv.org/pdf/2309.06908.pdf},
+  pdf     = {https://arxiv.org/pdf/2309.06908.pdf}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{wu2024traco,
+  abbr      = {AAAI},
+  selected  = {true},
+  code    = {https://github.com/bobxwu/TraCo},
+  pdf       = {https://arxiv.org/pdf/2401.14113.pdf},
+  bibtex_show       = {true},
+  title     = {On the Affinity, Rationality, and Diversity of Hierarchical Topic Modeling},
+  author    = {Wu, Xiaobao and Pan, Fengjun and Nguyen, Thong and Feng, Yichao and Liu, Chaoqun and Nguyen, Cong-Duy and Luu, Anh Tuan},
+  year      = 2024,
+  booktitle = aaai,
+  url       = {https://arxiv.org/pdf/2401.14113.pdf}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@inproceedings{wu2024dynamic,
+  abbr      = {ACL},
+  code    = {https://github.com/bobxwu/CFDTM},
+  pdf    = {https://arxiv.org/pdf/2405.17957},
+  bibtex_show = {true},
+  selected  = {true},
+  title     = {Modeling Dynamic Topics in Chain-Free Fashion by Evolution-Tracking Contrastive Learning and Unassociated Word Exclusion},
+  author    = {Wu, Xiaobao and Dong, Xinshuai and Pan, Liangming and Nguyen, Thong and Luu, Anh Tuan},
+  year      = 2024,
+  booktitle = aclfindings,
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@inproceedings{nguyen2024meta,
+  abbr        = {ECCV},
+  pdf         = {https://arxiv.org/pdf/2407.03788},
+  bibtex_show = {true},
+  title       = {Meta-optimized Angular Margin Contrastive Framework for Video-Language Representation Learning},
+  author      = {Nguyen, Thong and Bin, Yi and Wu, Xiaobao and Dong, Xinshuai and Hu, Zhiyuan and Le, Khoi and Nguyen, Cong-Duy and Ng, See-Kiong and Tuan, Luu Anh},
+  journal     = eccv,
+  year        = {2024},
+  url         = {https://arxiv.org/abs/2407.03788}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{wu2023effective,
+  abbr         = {ICML},
+  code    = {https://github.com/bobxwu/ECRTM},
+  pdf          = {https://arxiv.org/pdf/2306.04217},
+  bibtex_show = {true},
+  selected     = {true},
+  title        = {Effective Neural Topic Modeling with Embedding Clustering Regularization},
+  author       = {Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Luu, Anh Tuan},
+  year         = 2023,
+  booktitle    = icml,
+  url          = {https://arxiv.org/pdf/2306.04217},
+  organization = {PMLR}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+
+@inproceedings{wu2023infoctm,
+  abbr      = {AAAI},
+  code    = {https://github.com/bobxwu/InfoCTM},
+  pdf      = {https://arxiv.org/pdf/2304.03544},
+  bibtex_show = {true},
+  selected  = {true},
+  oral      = {true},
+  title     = {Infoctm: A Mutual Information Maximization Perspective of Cross-lingual Topic Modeling},
+  author    = {Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Liu, Chaoqun and Pan, Liang-Ming and Luu, Anh Tuan},
+  year      = 2023,
+  booktitle = aaai,
+  volume    = 37,
+  pages     = {13763--13771},
+  url       = {https://arxiv.org/pdf/2304.03544}
+}
+
+
+@inproceedings{pan-etal-2023-fact,
+  abbr              = {ACL},
+  code              = {https://github.com/teacherpeterpan/ProgramFC},
+  pdf               = {https://arxiv.org/abs/2305.12744},
+  video             = {https://aclanthology.org/2023.acl-long.386.mp4},
+  poster            = {poster/programfc_poster.pdf},
+  slides            = {slides/programfc_slides.pdf},
+  bibtex_show       = {true},
+  selected          = {true},
+  abstract          = {Fact-checking real-world claims often requires collecting multiple pieces of evidence and applying complex multi-step reasoning. In this paper, we present Program-Guided Fact-Checking (ProgramFC), a novel fact-checking model that decomposes complex claims into simpler sub-tasks that can be solved using a shared library of specialized functions. We first leverage the in-context learning ability of large language models to generate reasoning programs to guide the verification process. Afterward, we execute the program by delegating each sub-task to the corresponding sub-task handler. This process makes our model both explanatory and data-efficient, providing clear explanations of its reasoning process and requiring minimal training data. We evaluate ProgramFC on two challenging fact-checking datasets and show that it outperforms seven fact-checking baselines across different settings of evidence availability, with explicit output programs that benefit human debugging. Our codes and data are publicly available at \url{https://github.com/mbzuai-nlp/ProgramFC}.},
+  title             = {Fact-Checking Complex Claims with Program-Guided Reasoning},
+  author            = {Pan, Liangming  and
+                       Wu, Xiaobao  and
+                       Lu, Xinyuan  and
+                       Luu, Anh Tuan  and
+                       Wang, William Yang  and
+                       Kan, Min-Yen  and
+                       Nakov, Preslav},
+  booktitle         = acl,
+  year              = {2023},
+  address           = {Toronto, Canada},
+  publisher         = {Association for Computational Linguistics},
+  url               = {https://aclanthology.org/2023.acl-long.386},
+  pages             = {6981--7004}
+}
+
+
+@inproceedings{wu2022mitigating,
+  abbr      = {EMNLP},
+  code    = {https://github.com/bobxwu/TSCTM},
+  pdf       = {https://aclanthology.org/2022.emnlp-main.176},
+  bibtex_show = {true},
+  selected  = {true},
+  title     = {Mitigating Data Sparsity for Short Text Topic Modeling by Topic-Semantic Contrastive Learning},
+  author    = {Wu, Xiaobao  and Luu, Anh Tuan  and Dong, Xinshuai},
+  year      = 2022,
+  month     = dec,
+  booktitle = emnlp,
+  publisher = {Association for Computational Linguistics},
+  address   = {Abu Dhabi, United Arab Emirates},
+  pages     = {2748--2760},
+  url       = {https://aclanthology.org/2022.emnlp-main.176}
+}
+
+
+@inproceedings{wu2021discovering,
+  abbr      = {ACL},
+  code    = {https://github.com/bobxwu/DecTM},
+  pdf = {https://aclanthology.org/2021.findings-acl.15},
+  bibtex_show = {true},
+  title     = {Discovering Topics in Long-tailed Corpora with Causal Intervention},
+  author    = {Wu, Xiaobao  and Li, Chunping  and Miao, Yishu},
+  year      = 2021,
+  month     = aug,
+  booktitle = aclfindings,
+  publisher = {Association for Computational Linguistics},
+  address   = {Online},
+  pages     = {175--185},
+  doi       = {10.18653/v1/2021.findings-acl.15},
+  url       = {https://aclanthology.org/2021.findings-acl.15}
+}
+
+
+@inproceedings{wu2020short,
+  abbr      = {EMNLP},
+  code    = {https://github.com/bobxwu/NQTM},
+  pdf       = {https://aclanthology.org/2020.emnlp-main.138.pdf},
+  bibtex_show = {true},
+  selected  = {true},
+  title     = {Short Text Topic Modeling with Topic Distribution Quantization and Negative Sampling Decoder},
+  author    = {Wu, Xiaobao  and Li, Chunping  and Zhu, Yan  and Miao, Yishu},
+  year      = 2020,
+  month     = nov,
+  booktitle = emnlp,
+  address   = {Online},
+  pages     = {1772--1782},
+  url       = {https://aclanthology.org/2020.emnlp-main.138.pdf}
+}
+
+@inproceedings{wu2020learning,
+  abbr      = {NLPCC},
+  code    = {https://github.com/bobxwu/NMTM},
+  pdf       = {https://link.springer.com/chapter/10.1007/978-3-030-60450-9_66},
+  bibtex_show = {true},
+  oral      = {true},
+  title     = {{Learning Multilingual Topics with Neural Variational Inference}},
+  author    = {Wu, Xiaobao and Li, Chunping and Zhu, Yan and Miao, Yishu},
+  year      = 2020,
+  booktitle = nlpcc,
+  url       = {https://link.springer.com/chapter/10.1007/978-3-030-60450-9_66}
+}
+
+
+@inproceedings{wu2019short,
+  abbr      = {IJCNN},
+  code      = {https://github.com/BobXWu/Multiterm-Topic-Model},
+  pdf       = {https://ieeexplore.ieee.org/abstract/document/8852366/},
+  bibtex_show = {true},
+  title     = {{Short Text Topic Modeling with Flexible Word Patterns}},
+  author    = {Wu, Xiaobao and Li, Chunping},
+  year      = 2019,
+  booktitle = {International Joint Conference on Neural Networks (IJCNN)},
+  url       = {https://ieeexplore.ieee.org/abstract/document/8852366/}
+}
+
+
+
+@inproceedings{nguyen2024read,
+  abbr    = {AAAI},
+  pdf       = {https://arxiv.org/pdf/2312.06950},
+  bibtex_show = {true},
+  title     = {READ-PVLA: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling},
+  author    = {Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Le, Khoi M and Hu, Zhiyuan and Nguyen, Cong-Duy and Ng, See-Kiong and Luu, Anh Tuan},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {38},
+  number    = {17},
+  pages     = {18824--18832},
+  year      = {2024}
+}
+
+@inproceedings{nguyen2023demaformer,
+  abbr      = {EMNLP},
+  pdf       = {https://aclanthology.org/2023.findings-emnlp.235.pdf},
+  bibtex_show = {true},
+  title     = {DemaFormer: Damped Exponential Moving Average Transformer with Energy-Based Modeling for Temporal Language Grounding},
+  author    = {Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Nguyen, Cong-Duy and Ng, See Kiong and Luu, Anh},
+  booktitle = emnlpfindings,
+  pages     = {3635--3649},
+  year      = {2023}
+}
+
+@inproceedings{nguyen2024topic,
+  abbr    = {ICLR},
+  pdf       = {https://openreview.net/forum?id=HdAoLSBYXj},
+  bibtex_show = {true},
+  title     = {Topic Modeling as Multi-Objective Contrastive Optimization},
+  author    = {Thong Thanh Nguyen and Xiaobao Wu and Xinshuai Dong and Cong-Duy T Nguyen and See-Kiong Ng and Anh Tuan Luu},
+  booktitle = iclr,
+  year      = {2024},
+  url       = {https://openreview.net/forum?id=HdAoLSBYXj}
+}
+
+@inproceedings{nguyen2024kdmcse,
+  abbr    = {NAACL},
+  pdf     = {https://arxiv.org/pdf/2403.17486},
+  bibtex_show = {true},
+  title   = {KDMCSE: Knowledge Distillation Multimodal Sentence Embeddings with Adaptive Angular margin Contrastive Learning},
+  author  = {Nguyen, Cong-Duy and Nguyen, Thong and Wu, Xiaobao and Luu, Anh Tuan},
+  journal = naacl,
+  year    = {2024}
+}
+
+
+
+@inproceedings{nguyen2023gradient,
+  abbr    = {ACL},
+  pdf      = {https://aclanthology.org/2023.findings-acl.106.pdf},
+  bibtex_show = {true},
+  title     = {Gradient-Boosted Decision Tree for Listwise Context Model in Multimodal Review Helpfulness Prediction},
+  author    = {Nguyen, Thong Thanh and Wu, Xiaobao and Dong, Xinshuai and Nguyen, Cong-Duy T and Hai, Zhen and Bing, Lidong and Luu, Anh Tuan},
+  booktitle = acl,
+  year      = {2023},
+  url      = {https://aclanthology.org/2023.findings-acl.106.pdf}
+}
+
+@inproceedings{liu2023zero,
+  abbr    = {ACL},
+  pdf      = {https://arxiv.org/pdf/2305.11442},
+  bibtex_show = {true},
+  title     = {Zero-Shot Text Classification via Self-Supervised Tuning},
+  author    = {Liu, Chaoqun and Zhang, Wenxuan and Chen, Guizhen and Wu, Xiaobao and Luu, Anh Tuan and Chang, Chip Hong and Bing, Lidong},
+  booktitle = aclfindings,
+  pages     = {1743--1761},
+  year      = {2023}
+}
+
+@article{nguyen2022adaptive,
+  abbr    = {EMNLP},
+  pdf     = {https://aclanthology.org/2022.emnlp-main.686.pdf},
+  bibtex_show = {true},
+  title   = {Adaptive Contrastive Learning on Multimodal Transformer for Review Helpfulness Predictions},
+  author  = {Nguyen, Thong and Wu, Xiaobao and Luu, Anh-Tuan and Nguyen, Cong-Duy and Hai, Zhen and Bing, Lidong},
+  journal = emnlp,
+  year    = {2022}
 }
