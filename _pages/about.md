@@ -20,6 +20,8 @@ My research interests lie mostly in the area of **machine learning and natural l
 I'm interested in LLMs recently, specially the following topics:
 - <i class="fa-solid fa-flask"></i> **Reasoning**: How/why can LLMs consistently perform logical and faithful reasoning?
 - <i class="fa-solid fa-flask"></i> **Efficiency**: How can LLMs efficiently produce reliable information?
+- <i class="fa-solid fa-flask"></i> **Evaluation**: How to fairly and extensively evaluate LLMs?
+- <i class="fa-solid fa-flask"></i> **Deployment**: How to build robust LLM systems in practice?
 
 [CCDS]: https://www.ntu.edu.sg/computing
 [Tsinghua]: https://www.tsinghua.edu.cn/publish/newthu/index.html
@@ -34,8 +36,8 @@ I'm interested in LLMs recently, specially the following topics:
 <div class="card">
   <div class="card-body">
     <h5 class="card-title" style="color: #0076df; bold;">📢 Annoncement</h5>
-    <p class="card-text" style="font-size: 1em;">
-    I am looking for highly motivated Ph.D./master/undergraduate students to work with me on exciting research projects related to large language models. If you are interested in working with me, please feel free to reach out to me via email.
+    <p class="card-text" style="font-size: 1em; color: #FF0033;">
+    Our group is looking for highly self-motivated Ph.D./master/undergraduate students to collaborate on various interesting topics related to LLMs. If you have interest, please feel free to reach out to me via <a href="mailto:xiaobao002@e.ntu.edu.sg">email</a>.
     </p>
     <!-- <a href="/research/" class="btn btn-primary">Learn more</a> -->
   </div>

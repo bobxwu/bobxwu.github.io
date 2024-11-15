@@ -29,7 +29,7 @@
 
 @inproceedings{wu2024fastopic,
   abbr    = {NeurIPS},
-  title   = {Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model},
+  title   = {FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model},
   author  = {Wu, Xiaobao and Nguyen, Thong and Zhang, Delvin Ce and Wang, William Yang and Luu, Anh Tuan},
   journal = {arXiv preprint arXiv:2405.17978},
   year    = {2024},
@@ -38,7 +38,8 @@
   code        = {https://github.com/bobxwu/FASTopic},
   booktitle = neurips,
   selected    = {true},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  google_scholar_id = {K4-iKlO5MD4C}
 }
 
 
@@ -52,19 +53,23 @@
   pdf         = {https://arxiv.org/abs/2402.18909},
   url         = {https://arxiv.org/abs/2402.18909},
   code        = {https://github.com/bobxwu/AKEW},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  google_scholar_id = {Tfl4UtY-dJUC}
 }
 
 
 @inproceedings{pan2024fallacy,
   abbr        = {EMNLP},
   title       = {Are LLMs Good Zero-shot Fallacy Classifiers?},
-  author      = {Fengjun Pan* and Xiaobao Wu* and Li, Zongrui and Luu, Anh Tuan},
+  author      = {Fengjun Pan＃ and Xiaobao Wu＃ and Li, Zongrui and Luu, Anh Tuan},
   year        = 2024,
   booktitle   = emnlp,
   selected    = {true},
   bibtex_show = {true},
-  annotation  = {* Equal contribution.}
+  annotation  = {＃ Equal contribution.},
+  pdf         = {https://arxiv.org/pdf/2410.15050},
+  url         = {https://arxiv.org/pdf/2410.15050},
+  code        = {https://github.com/panFJCharlotte98/Fallacy_Detection}
 }
 
 
@@ -94,7 +99,8 @@
   url       = {https://doi.org/10.1007/s10462-023-10661-7},
   year      = {2024},
   publisher = {Springer},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  google_scholar_id = {T8_be82Iz5gC}
 }
 
 @inproceedings{wu2024topmost,
@@ -107,7 +113,8 @@
   year    = 2024,
   booktitle = {The Annual Meeting of Association for Computational Linguistics: System Demonstration Track},
   url     = {https://arxiv.org/pdf/2309.06908.pdf},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  google_scholar_id = {17ZO-CJnx_8C}
 }
 
 @inproceedings{wu2024traco,
@@ -120,7 +127,8 @@
   year      = 2024,
   booktitle = aaai,
   url       = {https://arxiv.org/pdf/2401.14113.pdf},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  google_scholar_id = {q1zXlPLtbUIC}
 }
 
 
@@ -159,7 +167,8 @@
   booktitle    = icml,
   url          = {https://arxiv.org/pdf/2306.04217},
   organization = {PMLR},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  google_scholar_id = {Oo1CbQkBAzEC}
 }
 
 
@@ -176,34 +185,26 @@
   volume    = 37,
   pages     = {13763--13771},
   url       = {https://arxiv.org/pdf/2304.03544},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  google_scholar_id = {oYLFIHfuHKwC}
 }
 
 
-@inproceedings{pan-etal-2023-fact,
-  abbr              = {ACL},
-  code              = {https://github.com/teacherpeterpan/ProgramFC},
-  pdf               = {https://arxiv.org/abs/2305.12744},
-  video             = {https://aclanthology.org/2023.acl-long.386.mp4},
-  poster            = {poster/programfc_poster.pdf},
-  slides            = {slides/programfc_slides.pdf},
-  selected          = {true},
-  abstract          = {Fact-checking real-world claims often requires collecting multiple pieces of evidence and applying complex multi-step reasoning. In this paper, we present Program-Guided Fact-Checking (ProgramFC), a novel fact-checking model that decomposes complex claims into simpler sub-tasks that can be solved using a shared library of specialized functions. We first leverage the in-context learning ability of large language models to generate reasoning programs to guide the verification process. Afterward, we execute the program by delegating each sub-task to the corresponding sub-task handler. This process makes our model both explanatory and data-efficient, providing clear explanations of its reasoning process and requiring minimal training data. We evaluate ProgramFC on two challenging fact-checking datasets and show that it outperforms seven fact-checking baselines across different settings of evidence availability, with explicit output programs that benefit human debugging. Our codes and data are publicly available at \url{https://github.com/mbzuai-nlp/ProgramFC}.},
-  title             = {Fact-Checking Complex Claims with Program-Guided Reasoning},
-  author            = {Pan, Liangming  and
-                       Wu, Xiaobao  and
-                       Lu, Xinyuan  and
-                       Luu, Anh Tuan  and
-                       Wang, William Yang  and
-                       Kan, Min-Yen  and
-                       Nakov, Preslav},
-  booktitle         = acl,
-  year              = {2023},
-  address           = {Toronto, Canada},
-  publisher         = {Association for Computational Linguistics},
-  url               = {https://aclanthology.org/2023.acl-long.386},
-  pages             = {6981--7004},
+@inproceedings{pan2023fact,
+  abbr = {ACL},
+  code    = {https://github.com/teacherpeterpan/ProgramFC},
+  pdf     = {https://arxiv.org/abs/2305.12744},
+  selected = {true},
+  title  = {Fact-Checking Complex Claims with Program-Guided Reasoning},
+  author = {Pan, Liangming  and Wu, Xiaobao  and Lu, Xinyuan  and Luu, Anh Tuan  and Wang, William Yang  and Kan, Min-Yen  and Nakov, Preslav},
+  booktitle = acl,
+  year    = {2023},
+  address = {Toronto, Canada},
+  publisher = {Association for Computational Linguistics},
+  url     = {https://aclanthology.org/2023.acl-long.386},
+  pages   = {6981--7004},
   bibtex_show = {true},
+  google_scholar_id = {1EqfMoDn7-AC}
 }
 
 
@@ -222,6 +223,7 @@
   pages     = {2748--2760},
   url       = {https://aclanthology.org/2022.emnlp-main.176},
   bibtex_show = {true},
+  google_scholar_id = {Vztgr1qGG8IC}
 }
 
 
@@ -256,7 +258,8 @@
   address   = {Online},
   pages     = {1772--1782},
   url       = {https://aclanthology.org/2020.emnlp-main.138.pdf},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  google_scholar_id = {zzCxg_vo7cAC}
 }
 
 @inproceedings{wu2020learning,
@@ -282,7 +285,8 @@
   year      = 2019,
   booktitle = {International Joint Conference on Neural Networks (IJCNN)},
   url       = {https://ieeexplore.ieee.org/abstract/document/8852366/},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  google_scholar_id = {d4tt_xEv1X8C}
 }
 
 

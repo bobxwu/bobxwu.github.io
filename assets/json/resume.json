@@ -21,10 +21,10 @@
     {
       "name": "Nanyang Technological University, Singapore",
       "department": "College of Computing and Data Science",
-      "position": "Ph.D. Candidate",
+      "position": "Ph.D.",
       "url": "",
       "startDate": "2021-08",
-      "endDate": "2024-11",
+      "endDate": "now",
       "summary": "",
       "location": "Singapore",
       "highlights": [
@@ -32,7 +32,7 @@
         "<strong>Research Topic</strong>: Effective Neural Topic Modeling"
       ],
       "icon": "/assets/img/ntu-logo.png",
-      "icon_height": "3.5rem"
+      "icon_height": "3.2rem"
     },
     {
       "name": "Tsinghua University",
