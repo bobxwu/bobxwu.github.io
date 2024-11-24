@@ -347,7 +347,12 @@
               >
             </a>
           {% endif %}
-
+          <!-- Github Repo stars -->
+          {% if entry.github_repo %}
+              <a href="https://github.com/{{ entry.github_repo }}">
+              <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ entry.github_repo }}">
+              </a>
+          {% endif %}
           <!-- Add optional corresponding author notation -->
           {% if entry.corresponding %}
             <span class="periodical font-italic" style="font-size: 90%;">(*: Corresponding Author)</span>
