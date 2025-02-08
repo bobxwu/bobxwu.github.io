@@ -13,7 +13,8 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 search_enabled: false
 ---
-Hi, I'm now a Ph.D. candidate at [CCDS][CCDS], [Nanyang Technological University][NTU], supervised by Prof. [Anh Tuan Luu][Tuan].
+
+Hi, I received my Ph.D. degree from [CCDS][CCDS], [Nanyang Technological University][NTU] in 2024., supervised by Prof. [Anh Tuan Luu][Tuan].
 I received my Master's degree from [Tsinghua University][Tsinghua] (2018 - 2021) and my Bachelor's degree from [Southeast University][SEU] (2014 - 2018).
 
 My research interests lie mostly in the area of **machine learning and natural language processing**.

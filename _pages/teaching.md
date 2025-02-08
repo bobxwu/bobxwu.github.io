@@ -8,3 +8,5 @@ nav_order: 4
 ---
 
 {% include talks.liquid %}
+
+{% include clustrmaps.liquid %}

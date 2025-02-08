@@ -27,3 +27,5 @@ for the most up-to-date list of publications.
 {% bibliography %}
 
 </div>
+
+{% include clustrmaps.liquid %}

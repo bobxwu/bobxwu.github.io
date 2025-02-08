@@ -1,0 +1,6 @@
+<div style="text-align: center; padding: 15px">
+    <a href="{{ user.homepage }}">
+        {% include figure.liquid loading="eager" path=user.figure class='img-fluid z-depth-1 rounded-circle' max-width="200px" alt=user.name cache_bust=true %}
+        {{ user.name }}
+    </a>
+</div>
