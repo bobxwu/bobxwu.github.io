@@ -10,8 +10,7 @@
       "summary": "",
       "location": "Santa Barbara, CA, USA",
       "highlights": [
-        "<strong>Advisor</strong>: <a href=\"https://www.cs.ucsb.edu/~william/\" rel=\"external nofollow noopener\" target=\"_blank\">William Yang Wang</a>",
-        "<strong>Research Topic</strong>: Long-context LLMs"
+        "<strong>Advisor</strong>: <a href=\"https://www.cs.ucsb.edu/~william/\" rel=\"external nofollow noopener\" target=\"_blank\">William Yang Wang</a>"
       ],
       "icon": "/assets/img/ucsb-logo.png",
       "icon_height": "5rem"
@@ -23,13 +22,12 @@
       "department": "College of Computing and Data Science",
       "position": "Ph.D.",
       "url": "",
-      "startDate": "2021-08",
-      "endDate": "now",
+      "startDate": "2021",
+      "endDate": "2024",
       "summary": "",
       "location": "Singapore",
       "highlights": [
-        "<strong>Advisor</strong>: <a href=\"https://www.comp.nus.edu.sg/~leeml/\" rel=\"external nofollow noopener\" target=\"_blank\">Anh Tuan Luu</a>",
-        "<strong>Research Topic</strong>: Effective Neural Topic Modeling"
+        "<strong>Advisor</strong>: <a href=\"https://www.comp.nus.edu.sg/~leeml/\" rel=\"external nofollow noopener\" target=\"_blank\">Anh Tuan Luu</a>"
       ],
       "icon": "/assets/img/ntu-logo.png",
       "icon_height": "3.2rem"
@@ -39,13 +37,12 @@
       "department": "School of Software",
       "position": "Master of Engineering",
       "url": "",
-      "startDate": "2018-08",
-      "endDate": "2021-06",
+      "startDate": "2018",
+      "endDate": "2021",
       "summary": "",
       "location": "Beijing, China",
       "highlights": [
-        "<strong>Major</strong>: Software Engineering",
-        "<strong>Research Topic</strong>: NLP for Text Analysis"
+        "<strong>Major</strong>: Software Engineering"
       ],
       "icon": "/assets/img/tsinghua-logo.png",
       "icon_height": "5rem"
@@ -55,8 +52,8 @@
       "department": "College of Software Engineering",
       "position": "Bachelor of Engineering",
       "url": "",
-      "startDate": "2014-08",
-      "endDate": "2018-06",
+      "startDate": "2014",
+      "endDate": "2018",
       "summary": "",
       "location": "Nanjing, China",
       "highlights": [
@@ -67,6 +64,13 @@
     }
   ],
   "awards": [
+    {
+      "title": "NTU Research Scholarship",
+      "date": "2021-2024",
+      "awarder": "Nanyang Technological University",
+      "url": "",
+      "summary": ""
+    },
     {
       "title": "Excellent Master Gradudate",
       "date": "2021",
@@ -90,14 +94,7 @@
     },
     {
       "title": "National Scholarship",
-      "date": "2016",
-      "awarder": "Ministry of Education of China",
-      "url": "",
-      "summary": ""
-    },
-    {
-      "title": "National Scholarship",
-      "date": "2015",
+      "date": "2015, 2016",
       "awarder": "Ministry of Education of China",
       "url": "",
       "summary": ""
