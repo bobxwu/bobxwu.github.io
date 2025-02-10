@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 page_title: Publications / Preprints
-description: "＃ denotes equal contribution"
+description: "✉ denotes Corresponding Author. # denotes Equal Contribution."
 nav: true
 nav_order: 3
 ---
