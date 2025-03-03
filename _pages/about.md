@@ -37,7 +37,7 @@ I'm interested in LLMs recently, specially the following topics:
 <div class="card">
   <div class="card-body">
     <h5 class="card-title" style="color: #0076df; bold;">📢 Annoncement</h5>
-    <p class="card-text" style="font-size: 1em; color: #FF0033;">
+    <p class="card-text" style="font-size: 1em;">
     I'm looking for highly self-motivated Ph.D./master/undergraduate students to collaborate on various interesting topics related to LLMs. If you have interest, please feel free to reach out to me via <a href="mailto:xiaobao002@e.ntu.edu.sg">email</a>.
     </p>
     <!-- <a href="/research/" class="btn btn-primary">Learn more</a> -->
