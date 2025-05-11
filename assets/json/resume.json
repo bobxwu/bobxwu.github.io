@@ -1,6 +1,18 @@
 {
   "work": [
     {
+      "name": "Nanyang Technological University, Singapore",
+      "department": "College of Computing and Data Science",
+      "position": "Research Scientist",
+      "url": "",
+      "startDate": "2025.01",
+      "endDate": "now",
+      "summary": "",
+      "location": "Singapore",
+      "icon": "/assets/img/ntu-logo.png",
+      "icon_height": "3.2rem"
+    },
+    {
       "name": "University of California, Santa Barbara",
       "department": "Department of Computer Science",
       "position": "Visiting Scholar",
@@ -41,9 +53,6 @@
       "endDate": "2021",
       "summary": "",
       "location": "Beijing, China",
-      "highlights": [
-        "<strong>Major</strong>: Software Engineering"
-      ],
       "icon": "/assets/img/tsinghua-logo.png",
       "icon_height": "5rem"
     },
@@ -56,9 +65,6 @@
       "endDate": "2018",
       "summary": "",
       "location": "Nanjing, China",
-      "highlights": [
-        "<strong>Major</strong>: Software Engineering"
-      ],
       "icon": "/assets/img/seu-logo.png",
       "icon_height": "5rem"
     }
