@@ -17,12 +17,12 @@ search_enabled: false
 Hi, I received my Ph.D. degree from [CCDS][CCDS], [Nanyang Technological University][NTU] in 2024., working with Prof. [Anh Tuan Luu][Tuan].
 I received my Master's degree from [Tsinghua University][Tsinghua] (2018 - 2021) and my Bachelor's degree from [Southeast University][SEU] (2014 - 2018).
 
-My research interests lie mostly in the area of **machine learning and natural language processing**.
+<!-- My research interests lie mostly in the area of **machine learning and natural language processing**.
 I'm interested in LLMs recently, specially the following topics:
 - <i class="fa-solid fa-flask"></i> **Reasoning**: How/why can LLMs consistently perform logical and faithful reasoning?
 - <i class="fa-solid fa-flask"></i> **Efficiency**: How can LLMs efficiently produce reliable information?
 - <i class="fa-solid fa-flask"></i> **Evaluation**: How to fairly and extensively evaluate LLMs?
-- <i class="fa-solid fa-flask"></i> **Deployment**: How to build robust LLM systems in practice?
+- <i class="fa-solid fa-flask"></i> **Deployment**: How to build robust LLM systems in practice? -->
 
 [CCDS]: https://www.ntu.edu.sg/computing
 [Tsinghua]: https://www.tsinghua.edu.cn/publish/newthu/index.html
