@@ -17,6 +17,8 @@ search_enabled: false
 Hi, I received my Ph.D. degree from [CCDS][CCDS], [Nanyang Technological University][NTU] in 2024., working with Prof. [Anh Tuan Luu][Tuan].
 I received my Master's degree from [Tsinghua University][Tsinghua] (2018 - 2021) and my Bachelor's degree from [Southeast University][SEU] (2014 - 2018).
 
+My research interests lie mostly in the area of **natural language processing**, especially in the efficient reasoning, trustworthiness, and multi-agent collaboration of LLMs.
+
 <!-- My research interests lie mostly in the area of **machine learning and natural language processing**.
 I'm interested in LLMs recently, specially the following topics:
 - <i class="fa-solid fa-flask"></i> **Reasoning**: How/why can LLMs consistently perform logical and faithful reasoning?
