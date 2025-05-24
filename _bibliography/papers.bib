@@ -6,6 +6,7 @@
 @string{acl = {Annual Meeting of the Association for Computational Linguistics (ACL)}}
 @string{emnlpfindings = {Findings of Conference on Empirical Methods in Natural Language Processing (EMNLP)}}
 @string{aclfindings = {Findings of Annual Meeting of the Association for Computational Linguistics (ACL)}}
+@string{acldemo = {Annual Meeting of the Association for Computational Linguistics: System Demonstration Track (ACL Demo)}}
 @string{icml = {International Conference on Machine Learning (ICML)}}
 @string{iclr = {International Conference on Learning Representations (ICLR)}}
 @string{tmlr = {Transactions on Machine Learning Research (TMLR)}}
@@ -107,8 +108,22 @@
   title   = {SCOPE: Compress Mathematical Reasoning Steps for Efficient Automated Process Annotation},
   author  = {Xu, Huimin and Mao, Xin and Li, Fenglin and Wu✉, Xiaobao and Chen, Wang and Zhang, Wei and Luu✉, Anh Tuan},
   booktitle = aclfindings,
-  year    = {2025}
+  year    = {2025},
+  pdf     = {https://arxiv.org/pdf/2505.14419},
+  url     = {https://arxiv.org/pdf/2505.14419}
 }
+
+@inproceedings{du2025codearena,
+  abbr    = {ACL Demo},
+  bibtex_show = {true},
+  title   = {CodeArena: A Collective Evaluation Platform for LLM Code Generation},
+  author  = {Du, Mingzhe and Luu, Anh Tuan and Ji, Bin and Wu, Xiaobao and Huang, Dong and Zhuo, Terry Yue and Liu, Qian and Ng, See-Kiong},
+  booktitle = acldemo,
+  year    = {2025},
+  pdf     = {https://arxiv.org/pdf/2503.01295},
+  url     = {https://arxiv.org/pdf/2503.01295}
+}
+
 
 @inproceedings{luo2025kbqa-o1,
   abbr    = {ICML},
@@ -195,26 +210,26 @@
 @inproceedings{wu2024fastopic,
   abbr              = {NeurIPS},
   bibtex_show       = {true},
+  selected          = {true},
   title             = {FASTopic: Pretrained Transformer is a Fast, Adaptive, Stable, and Transferable Topic Model},
   author            = {Wu, Xiaobao and Nguyen, Thong and Zhang, Delvin Ce and Wang, William Yang and Luu, Anh Tuan},
-  journal           = {arXiv preprint arXiv:2405.17978},
+  booktitle         = neurips,
   year              = {2024},
   pdf               = {https://arxiv.org/pdf/2405.17978},
   url               = {https://arxiv.org/pdf/2405.17978},
   code              = {https://github.com/bobxwu/FASTopic},
-  booktitle         = neurips,
-  selected          = {true},
+  github_repo       = {bobxwu/FASTopic}
 }
 
 
 @inproceedings{wu2024akew,
   abbr              = {EMNLP},
   bibtex_show       = {true},
+  selected          = {true},
   title             = {AKEW: Assessing Knowledge Editing in the Wild},
   author            = {Wu, Xiaobao and Pan, Liangming and Wang, William Yang and Luu, Anh Tuan},
   year              = 2024,
   booktitle         = emnlp,
-  selected          = {true},
   pdf               = {https://arxiv.org/pdf/2402.18909},
   url               = {https://arxiv.org/pdf/2402.18909},
   code              = {https://github.com/bobxwu/AKEW}
@@ -260,78 +275,78 @@
   journal           = air,
   url               = {https://doi.org/10.1007/s10462-023-10661-7},
   year              = {2024},
-  publisher         = {Springer},
+  publisher         = {Springer}
 }
 
 @inproceedings{wu2024topmost,
   abbr              = {ACL Demo},
   selected          = {true},
   bibtex_show       = {true},
-  pdf               = {https://arxiv.org/pdf/2309.06908.pdf},
-  code              = {https://github.com/bobxwu/TopMost},
   title             = {Towards the TopMost: A Topic Modeling System Toolkit},
   author            = {Wu, Xiaobao and Pan, Fengjun and Luu, Anh Tuan},
   year              = 2024,
-  booktitle         = {The Annual Meeting of Association for Computational Linguistics: System Demonstration Track},
+  booktitle         = acldemo,
+  pdf               = {https://arxiv.org/pdf/2309.06908.pdf},
   url               = {https://arxiv.org/pdf/2309.06908.pdf},
+  code              = {https://github.com/bobxwu/TopMost},
+  github_repo       = {bobxwu/TopMost}
 }
 
 @inproceedings{wu2024traco,
   abbr              = {AAAI},
   bibtex_show       = {true},
-  code              = {https://github.com/bobxwu/TraCo},
-  pdf               = {https://arxiv.org/pdf/2401.14113.pdf},
   title             = {On the Affinity, Rationality, and Diversity of Hierarchical Topic Modeling},
   author            = {Wu, Xiaobao and Pan, Fengjun and Nguyen, Thong and Feng, Yichao and Liu, Chaoqun and Nguyen, Cong-Duy and Luu, Anh Tuan},
-  year              = 2024,
   booktitle         = aaai,
+  year              = 2024,
+  pdf               = {https://arxiv.org/pdf/2401.14113.pdf},
   url               = {https://arxiv.org/pdf/2401.14113.pdf},
+  code              = {https://github.com/bobxwu/TraCo}
 }
 
 
 @inproceedings{wu2024dynamic,
   abbr              = {ACL Findings},
   bibtex_show       = {true},
-  code              = {https://github.com/bobxwu/CFDTM},
-  pdf               = {https://arxiv.org/pdf/2405.17957},
+  booktitle         = aclfindings,
   title             = {Modeling Dynamic Topics in Chain-Free Fashion by Evolution-Tracking Contrastive Learning and Unassociated Word Exclusion},
   author            = {Wu, Xiaobao and Dong, Xinshuai and Pan, Liangming and Nguyen, Thong and Luu, Anh Tuan},
   year              = 2024,
-  booktitle         = aclfindings,
+  url               = {https://arxiv.org/pdf/2405.17957},
+  code              = {https://github.com/bobxwu/CFDTM},
+  pdf               = {https://arxiv.org/pdf/2405.17957}
 }
 
 
 @inproceedings{nguyen2024meta,
   abbr        = {ECCV},
+  booktitle   = eccv,
   bibtex_show = {true},
   title       = {Meta-optimized Angular Margin Contrastive Framework for Video-Language Representation Learning},
   author      = {Nguyen, Thong and Bin, Yi and Wu, Xiaobao and Dong, Xinshuai and Hu, Zhiyuan and Le, Khoi and Nguyen, Cong-Duy and Ng, See-Kiong and Tuan, Luu Anh},
-  booktitle   = eccv,
-  year        = {2024},
+  year        = 2024,
   url         = {https://arxiv.org/abs/2407.03788},
-  pdf         = {https://arxiv.org/pdf/2407.03788},
+  pdf         = {https://arxiv.org/pdf/2407.03788}
 }
 
 @inproceedings{wu2023effective,
   abbr              = {ICML},
   bibtex_show       = {true},
-  code              = {https://github.com/bobxwu/ECRTM},
-  pdf               = {https://arxiv.org/pdf/2306.04217},
   selected          = {true},
+  booktitle         = icml,
+  organization      = {PMLR},
   title             = {Effective Neural Topic Modeling with Embedding Clustering Regularization},
   author            = {Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Luu, Anh Tuan},
   year              = 2023,
-  booktitle         = icml,
+  pdf               = {https://arxiv.org/pdf/2306.04217},
   url               = {https://arxiv.org/pdf/2306.04217},
-  organization      = {PMLR},
+  code              = {https://github.com/bobxwu/ECRTM}
 }
 
 
 @inproceedings{wu2023infoctm,
   abbr              = {AAAI},
   bibtex_show       = {true},
-  code              = {https://github.com/bobxwu/InfoCTM},
-  pdf               = {https://arxiv.org/pdf/2304.03544},
   oral              = {true},
   title             = {Infoctm: A Mutual Information Maximization Perspective of Cross-lingual Topic Modeling},
   author            = {Wu, Xiaobao and Dong, Xinshuai and Nguyen, Thong and Liu, Chaoqun and Pan, Liang-Ming and Luu, Anh Tuan},
@@ -340,6 +355,8 @@
   volume            = 37,
   pages             = {13763--13771},
   url               = {https://arxiv.org/pdf/2304.03544},
+  pdf               = {https://arxiv.org/pdf/2304.03544},
+  code              = {https://github.com/bobxwu/InfoCTM}
 }
 
 
@@ -347,16 +364,16 @@
   abbr              = {ACL},
   selected          = {true},
   bibtex_show       = {true},
-  code              = {https://github.com/teacherpeterpan/ProgramFC},
-  pdf               = {https://arxiv.org/abs/2305.12744},
+  booktitle         = acl,
   title             = {Fact-Checking Complex Claims with Program-Guided Reasoning},
   author            = {Pan, Liangming  and Wu, Xiaobao  and Lu, Xinyuan  and Luu, Anh Tuan  and Wang, William Yang  and Kan, Min-Yen  and Nakov, Preslav},
-  booktitle         = acl,
   year              = {2023},
   address           = {Toronto, Canada},
   publisher         = {Association for Computational Linguistics},
   url               = {https://aclanthology.org/2023.acl-long.386},
   pages             = {6981--7004},
+  pdf               = {https://arxiv.org/abs/2305.12744},
+  code              = {https://github.com/teacherpeterpan/ProgramFC},
 }
 
 
@@ -364,8 +381,6 @@
   abbr              = {EMNLP},
   bibtex_show       = {true},
   selected          = {true},
-  code              = {https://github.com/bobxwu/TSCTM},
-  pdf               = {https://aclanthology.org/2022.emnlp-main.176},
   title             = {Mitigating Data Sparsity for Short Text Topic Modeling by Topic-Semantic Contrastive Learning},
   author            = {Wu, Xiaobao  and Luu, Anh Tuan  and Dong, Xinshuai},
   year              = 2022,
@@ -375,14 +390,14 @@
   address           = {Abu Dhabi, United Arab Emirates},
   pages             = {2748--2760},
   url               = {https://aclanthology.org/2022.emnlp-main.176},
+  pdf               = {https://aclanthology.org/2022.emnlp-main.176},
+  code              = {https://github.com/bobxwu/TSCTM}
 }
 
 
 @inproceedings{wu2021discovering,
   abbr        = {ACL Findings},
   bibtex_show = {true},
-  code        = {https://github.com/bobxwu/DecTM},
-  pdf         = {https://aclanthology.org/2021.findings-acl.15},
   title       = {Discovering Topics in Long-tailed Corpora with Causal Intervention},
   author      = {Wu, Xiaobao  and Li, Chunping  and Miao, Yishu},
   year        = 2021,
@@ -392,7 +407,9 @@
   address     = {Online},
   pages       = {175--185},
   doi         = {10.18653/v1/2021.findings-acl.15},
-  url         = {https://aclanthology.org/2021.findings-acl.15}
+  url         = {https://aclanthology.org/2021.findings-acl.15},
+  pdf         = {https://aclanthology.org/2021.findings-acl.15},
+  code        = {https://github.com/bobxwu/DecTM}
 }
 
 
@@ -400,8 +417,6 @@
   abbr              = {EMNLP},
   selected          = {true},
   bibtex_show       = {true},
-  code              = {https://github.com/bobxwu/NQTM},
-  pdf               = {https://aclanthology.org/2020.emnlp-main.138.pdf},
   title             = {Short Text Topic Modeling with Topic Distribution Quantization and Negative Sampling Decoder},
   author            = {Wu, Xiaobao  and Li, Chunping  and Zhu, Yan  and Miao, Yishu},
   year              = 2020,
@@ -410,80 +425,85 @@
   address           = {Online},
   pages             = {1772--1782},
   url               = {https://aclanthology.org/2020.emnlp-main.138.pdf},
+  pdf               = {https://aclanthology.org/2020.emnlp-main.138.pdf},
+  code              = {https://github.com/bobxwu/NQTM}
 }
 
 @inproceedings{wu2020learning,
   abbr        = {NLPCC},
   bibtex_show = {true},
   oral        = {true},
-  title       = {{Learning Multilingual Topics with Neural Variational Inference}},
+  title       = {Learning Multilingual Topics with Neural Variational Inference},
   author      = {Wu, Xiaobao and Li, Chunping and Zhu, Yan and Miao, Yishu},
   year        = 2020,
   booktitle   = nlpcc,
   pdf         = {https://link.springer.com/chapter/10.1007/978-3-030-60450-9_66},
   url         = {https://link.springer.com/chapter/10.1007/978-3-030-60450-9_66},
-  code        = {https://github.com/bobxwu/NMTM},
+  code        = {https://github.com/bobxwu/NMTM}
 }
 
 
 @inproceedings{wu2019short,
   abbr              = {IJCNN},
   bibtex_show       = {true},
-  title             = {{Short Text Topic Modeling with Flexible Word Patterns}},
+  title             = {Short Text Topic Modeling with Flexible Word Patterns},
   author            = {Wu, Xiaobao and Li, Chunping},
   year              = 2019,
   booktitle         = ijcnn,
-  code              = {https://github.com/BobXWu/Multiterm-Topic-Model},
   url               = {https://ieeexplore.ieee.org/abstract/document/8852366/},
   pdf               = {https://ieeexplore.ieee.org/abstract/document/8852366/},
+  code              = {https://github.com/BobXWu/Multiterm-Topic-Model}
 }
 
 
 
 @inproceedings{nguyen2024read,
   abbr        = {AAAI},
-  pdf         = {https://arxiv.org/pdf/2312.06950},
+  bibtex_show = {true},
   title       = {READ-PVLA: Recurrent Adapter with Partial Video-Language Alignment for Parameter-Efficient Transfer Learning in Low-Resource Video-Language Modeling},
   author      = {Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Le, Khoi M and Hu, Zhiyuan and Nguyen, Cong-Duy and Ng, See-Kiong and Luu, Anh Tuan},
   booktitle   = aaai,
   volume      = {38},
   number      = {17},
   pages       = {18824--18832},
-  year        = {2024},
-  bibtex_show = {true}
+  year        = 2024,
+  url         = {https://arxiv.org/pdf/2312.06950},
+  pdf         = {https://arxiv.org/pdf/2312.06950}
 }
 
 @inproceedings{nguyen2023demaformer,
   abbr        = {EMNLP Findings},
-  pdf         = {https://aclanthology.org/2023.findings-emnlp.235.pdf},
+  bibtex_show = {true},
+  booktitle   = emnlpfindings,
   title       = {DemaFormer: Damped Exponential Moving Average Transformer with Energy-Based Modeling for Temporal Language Grounding},
   author      = {Nguyen, Thong and Wu, Xiaobao and Dong, Xinshuai and Nguyen, Cong-Duy and Ng, See Kiong and Luu, Anh},
-  booktitle   = emnlpfindings,
   pages       = {3635--3649},
   year        = {2023},
-  bibtex_show = {true}
+  pdf         = {https://aclanthology.org/2023.findings-emnlp.235.pdf},
+  url         = {https://aclanthology.org/2023.findings-emnlp.235.pdf}
 }
 
 @inproceedings{nguyen2024topic,
   abbr        = {ICLR},
-  pdf         = {https://openreview.net/forum?id=HdAoLSBYXj},
+  bibtex_show = {true},
   title       = {Topic Modeling as Multi-Objective Contrastive Optimization},
   author      = {Thong Thanh Nguyen and Xiaobao Wu and Xinshuai Dong and Cong-Duy T Nguyen and See-Kiong Ng and Anh Tuan Luu},
   booktitle   = iclr,
   year        = {2024},
-  url         = {https://openreview.net/forum?id=HdAoLSBYXj},
-  bibtex_show = {true}
+  pdf         = {https://openreview.net/forum?id=HdAoLSBYXj},
+  url         = {https://openreview.net/forum?id=HdAoLSBYXj}
 }
 
 @inproceedings{nguyen2024kdmcse,
   abbr        = {NAACL},
   bibtex_show = {true},
-  pdf         = {https://arxiv.org/pdf/2403.17486},
   title       = {KDMCSE: Knowledge Distillation Multimodal Sentence Embeddings with Adaptive Angular margin Contrastive Learning},
   author      = {Nguyen, Cong-Duy and Nguyen, Thong and Wu, Xiaobao and Luu, Anh Tuan},
   booktitle   = naacl,
-  year        = {2024},
-  code        = {https://github.com/duyngtr16061999/KDMCSE}
+  year        = 2024,
+  code        = {https://github.com/duyngtr16061999/KDMCSE},
+  pdf         = {https://arxiv.org/pdf/2403.17486},
+  url         = {https://arxiv.org/pdf/2403.17486}
 }
 
 
@@ -491,32 +511,33 @@
 @inproceedings{nguyen2023gradient,
   abbr        = {ACL Findings},
   bibtex_show = {true},
-  pdf         = {https://aclanthology.org/2023.findings-acl.106.pdf},
   title       = {Gradient-Boosted Decision Tree for Listwise Context Model in Multimodal Review Helpfulness Prediction},
   author      = {Nguyen, Thong Thanh and Wu, Xiaobao and Dong, Xinshuai and Nguyen, Cong-Duy T and Hai, Zhen and Bing, Lidong and Luu, Anh Tuan},
   booktitle   = aclfindings,
-  year        = {2023},
+  year        = 2023,
+  pdf         = {https://aclanthology.org/2023.findings-acl.106.pdf},
   url         = {https://aclanthology.org/2023.findings-acl.106.pdf}
 }
 
 @inproceedings{liu2023zero,
   abbr        = {ACL Findings},
-  pdf         = {https://arxiv.org/pdf/2305.11442},
+  bibtex_show = {true},
+  booktitle   = aclfindings,
   title       = {Zero-Shot Text Classification via Self-Supervised Tuning},
   author      = {Liu, Chaoqun and Zhang, Wenxuan and Chen, Guizhen and Wu, Xiaobao and Luu, Anh Tuan and Chang, Chip Hong and Bing, Lidong},
-  booktitle   = aclfindings,
   pages       = {1743--1761},
   year        = {2023},
-  bibtex_show = {true},
+  pdf         = {https://arxiv.org/pdf/2305.11442},
   code        = {https://github.com/DAMO-NLP-SG/SSTuning}
 }
 
 @inproceedings{nguyen2022adaptive,
   abbr        = {EMNLP},
-  pdf         = {https://aclanthology.org/2022.emnlp-main.686.pdf},
+  bibtex_show = {true},
+  booktitle   = emnlp,
   title       = {Adaptive Contrastive Learning on Multimodal Transformer for Review Helpfulness Predictions},
   author      = {Nguyen, Thong and Wu, Xiaobao and Luu, Anh-Tuan and Nguyen, Cong-Duy and Hai, Zhen and Bing, Lidong},
-  booktitle   = emnlp,
-  year        = {2022},
-  bibtex_show = {true}
+  year        = 2022,
+  pdf         = {https://aclanthology.org/2022.emnlp-main.686.pdf},
+  url         = {https://aclanthology.org/2022.emnlp-main.686.pdf}
 }
