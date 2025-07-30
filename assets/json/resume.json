@@ -77,46 +77,39 @@
       "url": "https://2025.aclweb.org/program/awards/"
     },
     {
+      "title": "ICLR Notable Reviewer",
+      "awarder": "International Conference on Learning Representations (ICLR)",
+      "date": "2025"
+    },
+    {
       "title": "NTU Research Scholarship",
       "date": "2021 to 2024",
-      "awarder": "Nanyang Technological University",
-      "url": "",
-      "summary": ""
+      "awarder": "Nanyang Technological University"
     },
     {
       "title": "Excellent Master Gradudate",
       "date": "2021",
-      "awarder": "School of Software, Tsinghua University",
-      "url": "",
-      "summary": ""
+      "awarder": "School of Software, Tsinghua University"
     },
     {
       "title": "Tsinghua-Glodon Scholarship",
       "date": "2019, 2020",
-      "awarder": "School of Software, Tsinghua University",
-      "url": "",
-      "summary": ""
+      "awarder": "School of Software, Tsinghua University"
     },
     {
       "title": "Merit Student of Jiangsu Province",
       "date": "2017",
-      "awarder": "Department of Education, Jiangsu Province",
-      "url": "",
-      "summary": ""
+      "awarder": "Department of Education, Jiangsu Province"
     },
     {
       "title": "National Scholarship",
       "date": "2015, 2016",
-      "awarder": "Ministry of Education of China",
-      "url": "",
-      "summary": ""
+      "awarder": "Ministry of Education of China"
     },
     {
       "title": "Merit Student of Southeast University",
       "date": "2015, 2016, 2017",
-      "awarder": "Southeast University",
-      "url": "",
-      "summary": ""
+      "awarder": "Southeast University"
     }
   ]
 }
