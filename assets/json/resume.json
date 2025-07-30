@@ -10,7 +10,7 @@
       "summary": "",
       "location": "Singapore",
       "icon": "/assets/img/ntu-logo.png",
-      "icon_height": "3.2rem"
+      "icon_height": "5rem"
     },
     {
       "name": "University of California, Santa Barbara",
@@ -42,7 +42,7 @@
         "<strong>Advisor</strong>: <a href=\"https://tuanluu.github.io/\" rel=\"external nofollow noopener\" target=\"_blank\">Anh Tuan Luu</a>"
       ],
       "icon": "/assets/img/ntu-logo.png",
-      "icon_height": "3.2rem"
+      "icon_height": "5rem"
     },
     {
       "name": "Tsinghua University",
@@ -70,6 +70,12 @@
     }
   ],
   "awards": [
+    {
+      "title": "Senior Area Chair Highlights Award",
+      "awarder": "Association for Computational Linguistics (ACL)",
+      "date": "2025",
+      "url": "https://2025.aclweb.org/program/awards/"
+    },
     {
       "title": "NTU Research Scholarship",
       "date": "2021 to 2024",

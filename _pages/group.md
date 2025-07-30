@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Group
-permalink:
+permalink: /group/
 description: 
 nav: false
 nav_order: 6
@@ -9,37 +9,35 @@ nav_order: 6
 
 {% assign people = site.data.people%}
 
-<h2>Principle Investigator</h2>
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<h3>Principle Investigator</h3>
+<div class="d-flex flex-wrap justify-content-start align-items-start">
 {% for user in people.PI %}
     {% include person.liquid user=user %}
 {% endfor %}
 </div>
 
----
-<br>
-<br>
 
-<h2>Ph.D.</h2>
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+
+---
+<h3>Ph.D. students</h3>
+<div class="d-flex flex-wrap justify-content-start align-items-start">
 {% for user in people.PhD %}
     {% include person.liquid user=user %}
 {% endfor %}
 </div>
 
 ---
-<br>
-<br>
-
-<h2>Master</h2>
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<h3>Master students</h3>
+<div class="d-flex flex-wrap justify-content-start align-items-start">
 {% for user in people.Master %}
     {% include person.liquid user=user %}
 {% endfor %}
 </div>
 
 ---
-<br>
-<br>
-
-{% include clustrmaps.liquid %}
+<h3>Alumni</h3>
+<ul>
+{% for user in people.Alumni %}
+    <li>{{ user.name }}. {{user.role}}, {{user.employment}}</li>
+{% endfor %}
+</ul>

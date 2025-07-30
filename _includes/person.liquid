@@ -1,6 +1,35 @@
-<div style="text-align: center; padding: 15px">
-    <a href="{{ user.homepage }}">
-        {% include figure.liquid loading="eager" path=user.figure class='img-fluid z-depth-1 rounded-circle' max-width="200px" alt=user.name cache_bust=true %}
-        {{ user.name }}
+<div style="text-align: center; padding: 15px 5px; max-width: 160px; margin: 0 30px;">
+  {%- if user.homepage -%}
+    <a href="{{ user.homepage }}" target="_blank" rel="noopener">
+  {%- endif -%}
+
+  {% include figure.liquid 
+    loading="eager" 
+    path=user.figure 
+    class='img-fluid z-depth-1 rounded-circle mb-0' 
+    max-width="100px" 
+    alt=user.name 
+    cache_bust=true 
+  %}
+  
+  {%- if user.homepage -%}
     </a>
+  {%- endif -%}
+
+  <div>
+    {{ user.name }}
+  </div>
+
+  <div>
+    {%- if user.homepage -%}
+        <a href="{{ user.homepage }}" target="_blank" title="Homepage" style="margin-right: 5px; text-decoration: none; border: none;">
+        <i class="fas fa-globe"></i>
+        </a>
+    {%- endif -%}
+    {%- if user.email -%}
+        <a href="mailto:{{ user.email }}" title="Email" style="text-decoration: none; border: none;">
+        <i class="fas fa-envelope"></i>
+        </a>
+    {%- endif -%}
+  </div>
 </div>
