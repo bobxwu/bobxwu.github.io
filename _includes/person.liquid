@@ -22,14 +22,29 @@
 
   <div>
     {%- if user.homepage -%}
-        <a href="{{ user.homepage }}" target="_blank" title="Homepage" style="margin-right: 5px; text-decoration: none; border: none;">
+        <a href="{{ user.homepage }}" title="Homepage" class="icon-link">
         <i class="fas fa-globe"></i>
         </a>
     {%- endif -%}
     {%- if user.email -%}
-        <a href="mailto:{{ user.email }}" title="Email" style="text-decoration: none; border: none;">
+        <a href="mailto:{{ user.email }}" title="Email" class="icon-link">
         <i class="fas fa-envelope"></i>
         </a>
     {%- endif -%}
   </div>
 </div>
+
+
+<style>
+.icon-link {
+  margin-right: 5px;
+  text-decoration: none;
+  border: none;
+  color: inherit;
+}
+
+.icon-link:hover {
+  color: #0076df;
+  text-decoration: none;
+}
+</style>
