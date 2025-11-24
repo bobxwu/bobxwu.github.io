@@ -8,8 +8,11 @@ middle_name:
 last_name: Wu
 email: xiaobao002@e.ntu.edu.sg
 position: Research Scientist
+# position: Assistant Professor
 department: College of Computing and Data Science
+# department: School of Computer Science
 institution: Nanyang Technological University
+# institution: Shanghai Jiao Tong University
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -171,8 +174,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  # - name: medium.com
+  #   rss_url: https://medium.com/@al-folio/feed
   - name: Google Blog
     posts:
       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
@@ -372,6 +375,7 @@ filtered_bibtex_keywords:
     blog,
     code,
     html,
+    oral,
     pdf,
     poster,
     preview,
