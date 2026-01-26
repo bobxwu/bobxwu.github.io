@@ -21,11 +21,12 @@ layout: default
       <!-- The profile information -->
       <div class="column-long" style="width: 60%">
         <div class="blank"></div>
-        <h2 class="post-title"><span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }}
-        {{ site.last_name }}</span></h2>
+        <h2 class="post-title">
+        <span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</span>
+        </h2>
         <h5><span style='font-size: 90%'>{{ site.position }}</span></h5>
-        <h5><span style='font-size: 90%'>{{ site.department }}</span></h5>
-        <h5><span style='font-size: 90%'>{{ site.institution }}</span></h5>
+        <h5><span style='font-size: 90%'>{{ site.department }}, {{ site.institution }}</span></h5>
+        <h5><span style='font-size: 90%'>上海交通大学计算机学院 助理教授</span></h5>
         <div class="blank"></div>
 
         <!-- Social -->
@@ -47,7 +48,6 @@ layout: default
   <article>
     <div class="clearfix">{{ content }}</div>
 
-    <br/>
     <br/>
     <hr class="segmentation-line">
 

@@ -3,79 +3,79 @@ PI:
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
-PhD:
+members:
     - name: Xiaobao Wu
+      role: Postdoc
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
+      start_date: 2022
 
     - name: Xiaobao Wu
+      role: Postdoc
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
+      start_date: 2022
+
 
     - name: Xiaobao Wu
+      role: Ph.D. Student
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
+      start_date: 2022
 
     - name: Xiaobao Wu
+      role: Ph.D. Student
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
+      start_date: 2022
 
     - name: Xiaobao Wu
+      role: Ph.D. Student
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
+      start_date: 2022
 
     - name: Xiaobao Wu
+      role: Master Student
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
+      start_date: 2022
 
     - name: Xiaobao Wu
+      role: Master Student
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
+      start_date: 2022
 
     - name: Xiaobao Wu
+      role: Master Student
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
+      start_date: 2022
 
     - name: Xiaobao Wu
+      role: Visiting Student
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
+      start_date: 2022
 
     - name: Xiaobao Wu
+      role: Visiting Student
       homepage: https://bobxwu.github.io
       email: xiaobao002@e.ntu.edu.sg
       figure: /assets/img/figure.jpg
+      start_date: 2022
 
-Master:
-    - name: Xiaobao Wu
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-
-    - name: Xiaobao Wu
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-
-    - name: Xiaobao Wu
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-
-    - name: Xiaobao Wu
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-
-Alumni:
+alumni:
     - name: Xiaobao Wu
       role: Ph.D. 2025
       employment: Nanyang Technological University

@@ -1,12 +1,24 @@
 {
   "work": [
     {
-      "name": "Nanyang Technological University, Singapore",
+      "name": "Shanghai Jiao Tong University, China",
+      "department": "School of Computer Science",
+      "position": "Assistant Professor",
+      "url": "",
+      "startDate": "2026.01",
+      "endDate": "now",
+      "summary": "",
+      "location": "Shanghai, China",
+      "icon": "/assets/img/sjtu-logo.png",
+      "icon_height": "5rem"
+    },
+    {
+      "name": "Nanyang Technological University",
       "department": "College of Computing and Data Science",
       "position": "Research Scientist",
       "url": "",
       "startDate": "2025.01",
-      "endDate": "now",
+      "endDate": "2026.01",
       "summary": "",
       "location": "Singapore",
       "icon": "/assets/img/ntu-logo.png",
@@ -71,7 +83,7 @@
   ],
   "awards": [
     {
-      "title": "Senior Area Chair Award",
+      "title": "Senior Area Chair Highlights Award",
       "awarder": "Association for Computational Linguistics (ACL)",
       "date": "2025",
       "url": "https://2025.aclweb.org/program/awards/"

@@ -14,18 +14,23 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 search_enabled: false
 ---
 
-Hi, I received my Ph.D. degree from [CCDS][CCDS], [Nanyang Technological University][NTU] in 2024., working with Prof. [Anh Tuan Luu][Tuan].
-I received my Master's degree from [Tsinghua University][Tsinghua] (2018 - 2021) and my Bachelor's degree from [Southeast University][SEU] (2014 - 2018).
+Hi, I'm now an Assistant Professor at [School of Computer Science][SCS], [Shanghai Jiao Tong University][SJTU].
+I received my Ph.D. degree from [Nanyang Technological University][NTU], Master's degree from [Tsinghua University][Tsinghua], and Bachelor's degree from [Southeast University][SEU].
+I was a visiting scholar at [University of California, Santa Barbara][UCSB].
+My research interests lie mostly in the area of natural language processing, artificial intelligence, and large language models.
 
-My research interests lie mostly in the area of **natural language processing**, especially in the efficient reasoning, trustworthiness, and multi-agent collaboration of LLMs.
+吴小宝博士，上海交通大学计算机科学与工程系助理教授、博士生导师。
+博士毕业于新加坡南洋理工大学，硕士和本科毕业于清华大学和东南大学。
+曾任加州大学圣巴巴拉分校访问学者，南洋理工大学博士后研究员。
+主要研究方向包括人工智能、自然语言处理、大语言模型等。
+在NeurIPS、ICML、ICLR、ACL、EMNLP等国际顶级会议与期刊上累计发表论文40余篇，
+长期担任ACL、EMNLP等国际会议领域主席，曾获ACL 2025领域主席奖。
 
-<!-- My research interests lie mostly in the area of **machine learning and natural language processing**.
-I'm interested in LLMs recently, specially the following topics:
-- <i class="fa-solid fa-flask"></i> **Reasoning**: How/why can LLMs consistently perform logical and faithful reasoning?
-- <i class="fa-solid fa-flask"></i> **Efficiency**: How can LLMs efficiently produce reliable information?
-- <i class="fa-solid fa-flask"></i> **Evaluation**: How to fairly and extensively evaluate LLMs?
-- <i class="fa-solid fa-flask"></i> **Deployment**: How to build robust LLM systems in practice? -->
+{% include recruitment.liquid %}
 
+
+[SCS]: https://www.cs.sjtu.edu.cn/
+[SJTU]: https://sjtu.edu.cn/
 [CCDS]: https://www.ntu.edu.sg/computing
 [Tsinghua]: https://www.tsinghua.edu.cn/publish/newthu/index.html
 [UCSB]: https://nlp.cs.ucsb.edu/
@@ -34,14 +39,3 @@ I'm interested in LLMs recently, specially the following topics:
 [NTU]: https://www.ntu.edu.sg/computing
 [SEU]: https://www.seu.edu.cn/english/
 
-
-<!-- Announcement color: #0076df; I am hiring!-->
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title" style="color: #0076df; bold;">📢 Annoncement</h5>
-    <p class="card-text" style="font-size: 1em;">
-    I'm looking for highly self-motivated Ph.D./master/undergraduate students to collaborate on various interesting topics related to LLMs. If you have interest, please feel free to reach out to me via <a href="mailto:xiaobao002@e.ntu.edu.sg">email</a>.
-    </p>
-    <!-- <a href="/research/" class="btn btn-primary">Learn more</a> -->
-  </div>
-</div>

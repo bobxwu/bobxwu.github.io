@@ -1,4 +1,4 @@
-<div style="text-align: center; padding: 15px 5px; max-width: 160px; margin: 0 30px;">
+<div style="width=90%; text-align: center; max-width: 160px; margin: 0 auto 1rem;">
   {%- if user.homepage -%}
     <a href="{{ user.homepage }}" target="_blank" rel="noopener">
   {%- endif -%}
@@ -11,28 +11,35 @@
     alt=user.name 
     cache_bust=true 
   %}
-  
+
   {%- if user.homepage -%}
     </a>
   {%- endif -%}
 
-  <div>
-    {{ user.name }}
-  </div>
-
-  <div>
-    {%- if user.homepage -%}
-        <a href="{{ user.homepage }}" title="Homepage" class="icon-link">
-        <i class="fas fa-globe"></i>
-        </a>
-    {%- endif -%}
-    {%- if user.email -%}
-        <a href="mailto:{{ user.email }}" title="Email" class="icon-link">
-        <i class="fas fa-envelope"></i>
-        </a>
-    {%- endif -%}
-  </div>
+<div>
+  {%- if user.homepage -%}
+    <div><a href="{{ user.homepage }}" target="_blank" rel="noopener">{{ user.name }}</a></div>
+  {%- else -%}
+    <div>{{ user.name }}</div>
+  {%- endif -%}
+  <div>{{ user.role }}</div>
 </div>
+
+<div>
+  {%- if user.homepage -%}
+      <a href="{{ user.homepage }}" title="Homepage" class="icon-link">
+      <i class="fas fa-globe"></i>
+      </a>
+  {%- endif -%}
+  {%- if user.email -%}
+      <a href="mailto:{{ user.email }}" title="Email" class="icon-link">
+      <i class="fas fa-envelope"></i>
+      </a>
+  {%- endif -%}
+</div>
+
+</div>
+
 
 
 <style>

@@ -9,35 +9,39 @@ nav_order: 6
 
 {% assign people = site.data.people%}
 
-<h3>Principle Investigator</h3>
-<div class="d-flex flex-wrap justify-content-start align-items-start">
-{% for user in people.PI %}
-    {% include person.liquid user=user %}
-{% endfor %}
+
+{% include recruitment.liquid %}
+
+
+<br/>
+<br/>
+<hr class="segmentation-line">
+
+<!-- Members Section -->
+<div class="mb-4">
+  <h3 class="fw-bold mb-3">Members</h3>
+  <div class="row g-4">
+    {% for user in people.members %}
+      <div class="col-md-3 col-sm-6">
+            {% include person.liquid user=user %}
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 
+<br/>
+<br/>
+<hr class="segmentation-line">
 
----
-<h3>Ph.D. students</h3>
-<div class="d-flex flex-wrap justify-content-start align-items-start">
-{% for user in people.PhD %}
-    {% include person.liquid user=user %}
-{% endfor %}
+<!-- Alumni Section -->
+<div class="mb-4">
+  <h3 class="fw-bold mb-3">Alumni</h3>
+  <ul class="list-unstyled">
+    {% for user in people.alumni %}
+      <li class="mb-1">
+        <b>{{ user.name }}</b>, {{ user.role }}. First Employment: {{ user.employment }}.
+      </li>
+    {% endfor %}
+  </ul>
 </div>
-
----
-<h3>Master students</h3>
-<div class="d-flex flex-wrap justify-content-start align-items-start">
-{% for user in people.Master %}
-    {% include person.liquid user=user %}
-{% endfor %}
-</div>
-
----
-<h3>Alumni</h3>
-<ul>
-{% for user in people.Alumni %}
-    <li>{{ user.name }}. {{user.role}}, {{user.employment}}</li>
-{% endfor %}
-</ul>
