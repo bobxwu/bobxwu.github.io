@@ -24,9 +24,12 @@ My research interests lie mostly in the area of natural language processing, art
 曾任加州大学圣巴巴拉分校访问学者，南洋理工大学博士后研究员。
 主要研究方向包括人工智能、自然语言处理、大语言模型等。
 在NeurIPS、ICML、ICLR、ACL、EMNLP等国际顶级会议与期刊上累计发表论文40余篇，
-长期担任ACL、EMNLP等国际会议领域主席，一作论文曾获ACL 2025领域主席奖。
+长期担任ACL、EMNLP等国际会议领域主席，一作论文获ACL 2025领域主席奖。
+
+
 
 {% include recruitment.liquid %}
+
 
 
 [SCS]: https://www.cs.sjtu.edu.cn/
