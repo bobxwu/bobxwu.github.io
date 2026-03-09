@@ -88,7 +88,7 @@ function showEN() {
         <strong>明确的目标</strong>：知道自己的兴趣方向，并愿意投入时间精力进行深入探索。
     </li>
     <li class="mb-2">
-        <strong>自我驱动与好奇心</strong>：愿意发挥主观能动性，能够主动学习、探索未知，并尝试解决问题并提出新的想法。
+        <strong>自我驱动与好奇心</strong>：愿意发挥主观能动性，能够主动学习、探索未知、尝试解决问题并提出新的想法。
     </li>
     <li class="mb-2">
         <strong>扎实的基础</strong>：具备良好的数学基础（如概率论、线性代数等）和编程能力。
@@ -111,9 +111,9 @@ function showEN() {
 </p>
 
 <ul>
-<li class="mb-2">个人简历（包含GPA或专业排名）</li>
+<li class="mb-2">个人简历（包含GPA和专业排名）</li>
 <li class="mb-2">成绩单</li>
-<li class="mb-2">简要阐述自己的优势和目标，对课题组里哪些研究感兴趣</li>
+<li class="mb-2">简要阐述自己的优势和未来目标，对课题组里哪些研究感兴趣</li>
 </ul>
 
 <p>
