@@ -29,11 +29,32 @@ function showEN() {
 <h3>📢 招生信息</h3>
 
 <p>
-本课题组长期招收具有<strong>自我驱动力和研究热情</strong>的优秀学生，
-包括<strong>本科实习生、硕士生和博士生</strong>。
+我们长期招收具有<strong>自我驱动力和研究热情</strong>的优秀学生，
+包括<strong>实习访问生、硕士生和博士生</strong>。
 如果你对<strong>自然语言处理、大语言模型以及智能体</strong>
 等前沿方向感兴趣，并希望参与具有影响力的研究工作，欢迎联系加入我们。
 </p>
+
+<h5 class="mt-4 mb-3 text-primary fw-bold">🌱 科研实习生</h5>
+
+<p>
+    面向<strong>上海交通大学或其他高校学生</strong>，
+    希望能够稳定投入时间参与研究，以发表高水平论文为目标。
+    我们会提供<strong>系统化、细致的科研指导</strong>，包括选题、方法实验设计与论文写作等全过程指导，通过<strong>定期1对1交流</strong>，帮助同学逐步成长为能够独立开展研究的科研人员。
+</p>
+
+<h5 class="mt-4 mb-3 text-primary fw-bold">🎓 硕士 / 博士研究生</h5>
+
+<p>
+欢迎具有<strong>扎实基础和科研潜力</strong>的同学报考或申请加入课题组。
+学生将深度参与前沿科研项目，
+在导师指导下开展研究并发表成果，
+鼓励在<strong>ACL、EMNLP、NeurIPS、ICML等顶级会议</strong>发表论文。
+
+对于希望进入工业界的同学，可推荐至<strong>国内外头部科技公司</strong>实习或工作；
+对于希望继续深造的同学，可<strong>推荐至国内外高校攻读博士</strong>。
+</p>
+
 
 <hr>
 
@@ -41,15 +62,13 @@ function showEN() {
 
 <ul>
     <li class="mb-2"><strong>智能体学习与推理</strong>：LLM Agent训练、规划与推理、多智能体协作等</li>
-    <li class="mb-2"><strong>模型可解释性</strong>：理解大模型内部机制、控制与干预基础模型等</li>
     <li class="mb-2"><strong>可信性与事实性</strong>：可信AI、信息真实性、偏见消除等</li>
+    <li class="mb-2"><strong>模型可解释性</strong>：理解大模型内部机制、控制与干预基础模型等</li>
 </ul>
 
 <hr>
 
-<h5 class="mt-4 mb-3 text-primary fw-bold">
-🌱 学生培养
-</h5>
+<h5 class="mt-4 mb-3 text-primary fw-bold">✨ 为什么加入我们</h5>
 
 <ul>
     <li class="mb-2">
@@ -57,17 +76,17 @@ function showEN() {
         没有打卡制度，注重学生的科研兴趣与长期发展，鼓励学生提出自己的想法并参与到完整的科研流程中，
         包括问题提出、方法设计、实验实现以及论文撰写。
         我会根据每位同学的优势、兴趣方向以及未来规划，制定合适的研究计划和发展路径。
-        通过<strong>定期1对1的meeting</strong>进行交流，对刚入门的学生会有详细的科研指导。
-    </li>
-    <li class="mb-2">
-        <strong>充足计算资源</strong><br>
-        课题组提供多台GPU服务器（如4090、A6000、A800等），
-        并配备完善的科研环境和办公条件。
+        通过<strong>定期1对1的交流</strong>，对刚入门的学生会有详细的科研指导。
     </li>
     <li class="mb-2">
         <strong>高水平科研成果</strong><br>
         鼓励学生发表高质量、有影响力的论文（如ACL、EMNLP、NeurIPS、ICML等），
         同时支持开源项目、技术转化及专利申请。
+    </li>
+    <li class="mb-2">
+        <strong>充足计算资源</strong><br>
+        提供多台GPU服务器（如4090、A6000、A800等），
+        配备完善的科研环境与办公条件。
     </li>
     <li class="mb-2">
         <strong>发展与推荐</strong><br>
@@ -85,19 +104,15 @@ function showEN() {
 
 <ul>
     <li class="mb-2">
-        <strong>明确的目标</strong>：知道自己的兴趣方向，并愿意投入时间精力进行深入探索。
+        <strong>明确目标</strong>：知道自己的兴趣方向和未来目标，并愿意投入时间精力进行深入探索。
     </li>
     <li class="mb-2">
         <strong>自我驱动与好奇心</strong>：愿意发挥主观能动性，能够主动学习、探索未知、尝试解决问题并提出新的想法。
     </li>
     <li class="mb-2">
-        <strong>扎实的基础</strong>：具备良好的数学基础（如概率论、线性代数等）和编程能力。
-    </li>
-    <li class="mb-2">
-        <strong>投入时间</strong>：希望能够持续一定周期，并能够稳定投入时间参与研究工作。
+        <strong>扎实的基础</strong>：具备良好的数学基础（如概率论、线性代数等）和编程能力，至少学习过一门AI/NLP相关课程（如<a href="https://cs336.stanford.edu/">CS336</a>）。
     </li>
 </ul>
-
 
 <hr>
 
@@ -111,16 +126,16 @@ function showEN() {
 </p>
 
 <ul>
-<li class="mb-2">个人简历（包含GPA和专业排名）</li>
-<li class="mb-2">成绩单</li>
-<li class="mb-2">简要阐述自己的优势和未来目标，对课题组里哪些研究感兴趣</li>
+<li>个人简历（包含GPA和专业排名）</li>
+<li>成绩单</li>
+<li>简要阐述自己的优势和未来目标，对课题组里哪些研究感兴趣。</li>
+<li>如果申请科研实习，请说明预期实习时间和目标。</li>
 </ul>
 
 <p>
 邮件标题请注明：
-<code>申请岗位-姓名-学校-专业</code>
-<br>
-例如：<code>本科实习申请/保研硕士申请/保研博士申请/普博申请-张三-上海交大-计算机专业</code>
+<code>申请岗位-姓名-学校-专业</code>。
+例如：<code>实习申请/保研硕士申请/保研博士申请/普博申请-张三-上海交大-计算机专业</code>
 </p>
 
 
