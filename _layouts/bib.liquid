@@ -224,7 +224,7 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="{{ link_button_style }}" role="button">arXiv</a>
       {% endif %}
-      {% if entry.bibtex_show %}
+      {% if entry.bibtex_show or entry.bibtex_show == nil %}
         <a class="bibtex {{ link_button_style }}" role="button">Bib</a>
       {% endif %}
       {% if entry.html %}
@@ -368,7 +368,7 @@
       </div>
     {% endif %}
 
-    {% if entry.bibtex_show %}
+    {% if entry.bibtex_show or entry.bibtex_show == nil %}
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">
         {% highlight bibtex %}
