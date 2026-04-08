@@ -1,57 +1,21 @@
-<div style="width=90%; text-align: center; max-width: 160px; margin: 0 auto 1rem;">
-  {%- if user.homepage -%}
-    <a href="{{ user.homepage }}" target="_blank" rel="noopener">
-  {%- endif -%}
+{% assign members = include.members | default: site.data.people.members %}
+{% assign grouped_members = members | group_by: 'role' %}
 
-  {% include figure.liquid 
-    loading="eager" 
-    path=user.figure 
-    class='img-fluid z-depth-1 rounded-circle mb-0' 
-    max-width="100px" 
-    alt=user.name 
-    cache_bust=true 
-  %}
-
-  {%- if user.homepage -%}
-    </a>
-  {%- endif -%}
-
-<div>
-  {%- if user.homepage -%}
-    <div><a href="{{ user.homepage }}" target="_blank" rel="noopener">{{ user.name }}</a></div>
-  {%- else -%}
-    <div>{{ user.name }}</div>
-  {%- endif -%}
-  <div>{{ user.role }}</div>
+<div class="mb-5">
+  {% for role_group in grouped_members %}
+    <div class="mb-4">
+      <h3 class="h4 fw-semibold mb-3">{{ role_group.name }}</h3>
+      <ul class="mb-3">
+        {% for user in role_group.items %}
+          <li class="mb-1">
+            {% if user.homepage %}
+              <a href="{{ user.homepage }}" target="_blank" rel="noopener" class="fw-bold fs-6">{{ user.name }}</a>
+            {% else %}
+              <span class="fw-bold fs-6">{{ user.name }}</span>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
 </div>
-
-<div>
-  {%- if user.homepage -%}
-      <a href="{{ user.homepage }}" title="Homepage" class="icon-link">
-      <i class="fas fa-globe"></i>
-      </a>
-  {%- endif -%}
-  {%- if user.email -%}
-      <a href="mailto:{{ user.email }}" title="Email" class="icon-link">
-      <i class="fas fa-envelope"></i>
-      </a>
-  {%- endif -%}
-</div>
-
-</div>
-
-
-
-<style>
-.icon-link {
-  margin-right: 5px;
-  text-decoration: none;
-  border: none;
-  color: inherit;
-}
-
-.icon-link:hover {
-  color: #0076df;
-  text-decoration: none;
-}
-</style>

@@ -13,35 +13,26 @@ nav_order: 6
 {% include recruitment.liquid %}
 
 
-<br/>
-<br/>
-<hr class="segmentation-line">
+<hr>
 
 <!-- Members Section -->
-<div class="mb-4">
-  <h3 class="fw-bold mb-3">Members</h3>
-  <div class="row g-4">
-    {% for user in people.members %}
-      <div class="col-md-3 col-sm-6">
-            {% include person.liquid user=user %}
-      </div>
-    {% endfor %}
-  </div>
-</div>
+{% include person.liquid members=people.members %}
 
 
-<br/>
-<br/>
-<hr class="segmentation-line">
 
 <!-- Alumni Section -->
-<div class="mb-4">
-  <h3 class="fw-bold mb-3">Alumni</h3>
-  <ul class="list-unstyled">
+{% if people.alumni and people.alumni.size > 0 %}
+<hr>
+<div class="mb-5">
+  <h3 class="h4 fw-semibold mb-3">Alumni</h3>
+  <ul class="mb-3">
     {% for user in people.alumni %}
       <li class="mb-1">
-        <b>{{ user.name }}</b>, {{ user.role }}. First Employment: {{ user.employment }}.
+        <span class="fw-bold">{{ user.name }}</span>
+        <span>{{ user.role }}</span>
+        <span class="text-muted">{{ user.employment }}</span>
       </li>
     {% endfor %}
   </ul>
 </div>
+{% endif %}

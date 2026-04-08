@@ -1,81 +1,16 @@
-PI:
-    - name: Xiaobao Wu
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
 members:
-    - name: Xiaobao Wu
-      role: Postdoc
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-      start_date: 2022
-
-    - name: Xiaobao Wu
-      role: Postdoc
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-      start_date: 2022
-
-
-    - name: Xiaobao Wu
-      role: Ph.D. Student
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-      start_date: 2022
-
-    - name: Xiaobao Wu
-      role: Ph.D. Student
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-      start_date: 2022
-
-    - name: Xiaobao Wu
-      role: Ph.D. Student
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-      start_date: 2022
-
-    - name: Xiaobao Wu
+    - name: Haixing He
       role: Master Student
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-      start_date: 2022
+      # homepage: https://bobxwu.github.io
+      # email: xiaobao002@e.ntu.edu.sg
+      # figure: /assets/img/figure.jpg
+      start_date: 2026
 
-    - name: Xiaobao Wu
-      role: Master Student
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-      start_date: 2022
-
-    - name: Xiaobao Wu
-      role: Master Student
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-      start_date: 2022
-
-    - name: Xiaobao Wu
-      role: Visiting Student
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-      start_date: 2022
-
-    - name: Xiaobao Wu
-      role: Visiting Student
-      homepage: https://bobxwu.github.io
-      email: xiaobao002@e.ntu.edu.sg
-      figure: /assets/img/figure.jpg
-      start_date: 2022
+    - name: Rongpeng Zhu
+      role: Research Intern
+      start_date: 2026
 
 alumni:
-    - name: Xiaobao Wu
-      role: Ph.D. 2025
-      employment: Nanyang Technological University
+    # - name: Xiaobao Wu
+    #   role: Ph.D. 2025
+    #   employment: Nanyang Technological University
