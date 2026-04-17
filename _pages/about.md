@@ -19,7 +19,7 @@ I received my Ph.D. degree from [Nanyang Technological University][NTU], Master'
 I was a visiting scholar at [University of California, Santa Barbara][UCSB].
 My research interests lie mostly in the area of natural language processing, artificial intelligence, and large language models.
 
-吴小宝博士，上海交通大学计算机学院助理教授、博士生导师，上海市海外高层次青年人才。
+吴小宝博士，上海交通大学计算机学院助理教授、博士生导师。
 博士毕业于新加坡南洋理工大学，硕士和本科毕业于清华大学和东南大学。
 曾任加州大学圣巴巴拉分校访问学者，南洋理工大学博士后研究员。
 主要研究方向包括人工智能、自然语言处理、大语言模型等。
