@@ -121,7 +121,7 @@ function showEN() {
 </h5>
 
 <p>
-如果你希望加入我们，请发送以下材料至
+如果你希望加入我们，请填写<a href="https://wj.sjtu.edu.cn/q/ZA7sWW9z">问卷</a>，并发送以下材料至
 <a href="mailto:{{site.email}}">邮箱</a>：
 </p>
 
@@ -137,6 +137,8 @@ function showEN() {
 <code>申请岗位-姓名-学校-专业</code>。
 例如：<code>实习申请/保研硕士申请/保研博士申请/普博申请-张三-上海交大-计算机专业</code>
 </p>
+
+
 
 
 </div>
@@ -234,7 +236,7 @@ you are very welcome to join our group.
 </h5>
 
 <p>
-If you are interested in joining our group, please send the following materials to
+If you are interested in joining our group, please fill up this <a href="https://wj.sjtu.edu.cn/q/ZA7sWW9z">form</a> ,and send the following materials to
 <a href="mailto:{{site.email}}">this email</a>:
 </p>
 
