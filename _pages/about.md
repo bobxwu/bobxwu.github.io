@@ -21,7 +21,7 @@ My research interests lie mostly in the area of natural language processing, art
 
 吴小宝博士，上海交通大学计算机学院助理教授、博士生导师。
 博士毕业于新加坡南洋理工大学，硕士和本科毕业于清华大学和东南大学。
-曾任加州大学圣巴巴拉分校访问学者，南洋理工大学博士后研究员。
+曾任加州大学圣芭芭拉分校访问学者，南洋理工大学博士后研究员。
 主要研究方向包括人工智能、自然语言处理、大语言模型等。
 在NeurIPS、ICML、ICLR、ACL、EMNLP等国际顶级会议与期刊上累计发表论文40余篇，
 长期担任ACL、EMNLP等国际会议领域主席，一作论文获ACL领域主席奖。
